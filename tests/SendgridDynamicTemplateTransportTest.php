@@ -17,7 +17,6 @@ use Datana\Bridge\Symfony\Mailer\Sendgrid\Transport\SendgridDynamicTemplateTrans
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework\TestCase;
 use function Safe\json_encode;
-use function Safe\sprintf;
 use Symfony\Component\Mailer\Envelope;
 use Symfony\Component\Mailer\Exception\InvalidArgumentException;
 use Symfony\Component\Mime\Address;

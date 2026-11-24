@@ -17,7 +17,6 @@ use Psr\EventDispatcher\EventDispatcherInterface;
 use Psr\Log\LoggerInterface;
 use function Safe\json_decode;
 use function Safe\preg_match;
-use function Safe\sprintf;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Mailer\Envelope;
 use Symfony\Component\Mailer\Exception\HttpTransportException;
